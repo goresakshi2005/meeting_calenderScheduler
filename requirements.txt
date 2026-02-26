@@ -1,0 +1,26 @@
+# Build tools (install these first)
+setuptools>=68.0.0
+wheel>=0.41.0
+setuptools-rust>=1.7.0
+
+# PyTorch (CPU version for Windows)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Whisper (install after PyTorch)
+openai-whisper>=20231117
+
+# Audio handling
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Graph and knowledge extraction
+networkx>=3.0
+langchain>=0.1.0
+langchain-openai>=0.0.2
+openai>=1.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-dateutil>=2.8.2
+tzlocal>=5.0
